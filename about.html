@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+
+  <title>About QIV – Premium Phone Wallpapers | Free iPhone & Android Backgrounds</title>
+
+  <!-- Primary SEO -->
+  <meta name="description" content="QIV provides free premium phone wallpapers for iPhone and Android. Explore unique lock screen, home screen, and category-specific backgrounds in perfect 9:16 resolution.">
+  <meta name="keywords" content="phone wallpapers, iPhone wallpapers, Android wallpapers, lock screen wallpapers, home screen wallpapers, premium backgrounds">
+  <meta name="author" content="QIV Wallpapers">
+  <meta name="robots" content="index, follow">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://your-domain.example/about/">
+
+  <!-- Appearance / PWA hints -->
+  <meta name="theme-color" content="#ff3a95">
+  <meta name="color-scheme" content="light dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="QIV">
+  <link rel="icon" type="image/png" href="./icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="./icons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" sizes="180x180">
+  <link rel="manifest" href="./manifest.json">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About QIV – Premium Phone Wallpapers">
+  <meta property="og:description" content="Learn about QIV and our mission to provide premium, free phone wallpapers for iPhone, Android, and all mobile devices.">
+  <meta property="og:url" content="https://your-domain.example/about/">
+  <meta property="og:image" content="PASTE-YOUR-PREVIEW-IMAGE-URL-HERE">
+  <meta property="og:site_name" content="QIV Premium Phone Wallpapers">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="About QIV – Premium Phone Wallpapers">
+  <meta name="twitter:description" content="Discover our mission to create premium, free phone wallpapers optimized for all devices.">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --primary: #ff3a95;
+      --secondary: #6a0dad;
+      --accent-dark: #0b1220;
+      --accent-shadow: rgba(11, 18, 32, 0.48);
+      --dark-bg: #ffffff;
+      --darker-bg: #f5f5f5;
+      --card-bg: #ffffff;
+      --text: #1a1a1a;
+      --muted: #666666;
+      --border: #e0e0e0;
+    }
+    body.dark-theme {
+      --dark-bg: #0a0a1a;
+      --darker-bg: #050510;
+      --card-bg: #1a1a2e;
+      --text: #f0f0f5;
+      --muted: #a0a0b0;
+      --border: #2a2a3e;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, var(--darker-bg) 0%, var(--dark-bg) 100%);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .site-header {
+      position: sticky;
+      top: 0;
+      background: rgba(255, 255, 255, 0.95);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      z-index: 500;
+      backdrop-filter: blur(8px);
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+    body.dark-theme .site-header {
+      background: linear-gradient(180deg, rgba(5, 5, 16, 0.98), rgba(5, 5, 16, 0.8));
+    }
+    .theme-toggle {
+      background: rgba(255, 58, 149, 0.1);
+      border: 1px solid var(--border);
+      color: var(--text);
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      font-size: 16px;
+    }
+    .theme-toggle:hover {
+      background: rgba(255, 58, 149, 0.2);
+      border-color: var(--primary);
+    }
+    .brand { flex: 1; }
+    .top-nav {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      margin-left: 8px;
+    }
+    .top-nav .nav-link {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 13px;
+      padding: 6px 8px;
+      border-radius: 8px;
+    }
+    .top-nav .nav-link:hover {
+      color: var(--text);
+      background: rgba(255,58,149,0.06);
+    }
+    .logo-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .logo { width: 36px; height: 36px; }
+    .brand-text {
+      font-size: 20px;
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    .container h1 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 24px;
+      color: var(--text);
+    }
+    .container section {
+      margin-bottom: 40px;
+    }
+    .container h2 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--text);
+    }
+    .container p {
+      font-size: 16px;
+      line-height: 1.8;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+    .container ul {
+      margin: 20px 0 20px 24px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.8;
+    }
+    .container li {
+      margin-bottom: 8px;
+    }
+    .site-footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .footer-columns {
+      max-width: 1200px;
+      margin: 0 auto 32px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 32px;
+    }
+    .footer-columns h4, .footer-columns h2.footer-heading {
+      color: var(--text);
+      margin-bottom: 12px;
+      font-size: 15px;
+    }
+    .footer-columns a {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .footer-columns a:hover { color: var(--primary); }
+    .credits {
+      text-align: center;
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+      font-size: 12px;
+    }
+    .header-auth-buttons { display: flex; align-items: center; gap: 8px; margin-left: 12px; }
+    .header-btn {
+      padding: 8px 14px;
+      border-radius: 8px;
+      border: none;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-family: inherit;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .header-login {
+      background: transparent;
+      color: var(--primary);
+      border: 1.5px solid var(--primary);
+    }
+    .header-login:hover {
+      background: rgba(255, 58, 149, 0.1);
+      box-shadow: 0 4px 12px rgba(255, 58, 149, 0.2);
+    }
+    .header-signup {
+      background: var(--text);
+      color: var(--card-bg);
+      border: 1.5px solid var(--text);
+    }
+    .header-signup:hover {
+      background: rgba(0, 0, 0, 0.8);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    .header-logout {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      border: none;
+    }
+    .header-logout:hover {
+      box-shadow: 0 4px 12px rgba(255, 58, 149, 0.3);
+      transform: translateY(-2px);
+    }
+    .header-btn.hidden { display: none; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">
+      <span class="icon sun" aria-hidden>☀️</span>
+      <span class="icon moon" aria-hidden>🌙</span>
+    </button>
+
+    <div class="brand">
+      <a href="/" class="logo-link" aria-label="QIV home">
+        <img src="./logo.svg" alt="QIV" class="logo" width="36" height="36">
+        <span class="brand-text">QIV</span>
+      </a>
+    </div>
+
+    <nav class="top-nav" role="navigation" aria-label="Main navigation">
+      <a href="/" class="nav-link">Phone Wallpapers</a>
+    </nav>
+
+    <div class="header-auth-buttons">
+      <button id="login-btn" class="header-btn header-login" aria-label="Login">Login</button>
+      <button id="signup-btn" class="header-btn header-signup" aria-label="Sign up">Sign Up</button>
+      <button id="logout-btn" class="header-btn header-logout hidden" aria-label="Logout">Logout</button>
+    </div>
+  </header>
+
+  <main>
+    <article class="container">
+      <h1>About QIV</h1>
+
+      <section>
+        <h2>Futuristic Wallpapers for Your Phone</h2>
+        <p>QIV offers cool, alien-inspired wallpapers designed for iPhone and Android devices. Our collection features futuristic, unique, and visually striking designs that transform your phone screen into a stunning visual experience.</p>
+      </section>
+
+      <section>
+        <h2>Premium Design, Minimal Approach</h2>
+        <p>We believe great design speaks for itself. Every wallpaper in our collection is crafted with a modern, minimal aesthetic—clean lines, bold visuals, and striking colors that look amazing on any device. Whether you're using the latest iPhone or Android phone, our wallpapers are optimized in perfect 9:16 resolution for seamless display across all mobile devices.</p>
+      </section>
+
+      <section>
+        <h2>Why QIV?</h2>
+        <ul>
+          <li><strong>Unique Alien-Inspired Designs</strong> – Stand out with futuristic wallpapers you won't find anywhere else</li>
+          <li><strong>Perfect for Any Phone</strong> – Compatible with iPhone, Android, Samsung, Google Pixel, and all mobile devices</li>
+          <li><strong>High Quality</strong> – Crisp, clear, and visually striking on every screen</li>
+          <li><strong>Fast & Easy</strong> – Download instantly and customize your phone in seconds</li>
+          <li><strong>Always Free</strong> – No paywalls, no subscriptions—just beautiful wallpapers</li>
+        </ul>
+      </section>
+          <li><strong>Regular Updates</strong> – New wallpapers added regularly to keep our collection fresh</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Global Reach</h2>
+        <p>QIV serves phone wallpaper enthusiasts worldwide, providing premium backgrounds for users across every continent. Whether you're in the United States, Europe, Asia, Africa, South America, or anywhere else, QIV makes it easy to discover and download phone wallpapers that match your style.</p>
+      </section>
+
+      <section>
+        <h2>Unique Design Philosophy</h2>
+        <p>Our wallpapers feature a distinctive aesthetic blend of alien imagery, futuristic designs, and modern art. This unique approach sets QIV apart from generic wallpaper collections, providing users with backgrounds that are not only beautiful but also conversation-starting and personally meaningful.</p>
+      </section>
+
+      <section>
+        <h2>Contact & Support</h2>
+        <p>Have questions or suggestions? We'd love to hear from you! Visit our <a href="./contact.html" style="color: var(--primary); text-decoration: none;">contact page</a> to reach out, or connect with us on social media.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-columns">
+      <div>
+        <h2 class="footer-heading">About</h2>
+        <p>QIV is the premier source for free premium phone wallpapers. We provide unique, high-quality backgrounds for iPhone, Android, and all mobile devices worldwide.</p>
+      </div>
+      <div>
+        <h2 class="footer-heading">Wallpaper Categories</h2>
+        <a href="/">Phone Wallpapers</a>
+      </div>
+      <div>
+        <h2 class="footer-heading">Contact & Social</h2>
+        <a href="mailto:6abdulbashit@gmail.com">Email: 6abdulbashit@gmail.com</a>
+        <a href="https://www.tiktok.com/@abdolgo" target="_blank">Follow on TikTok</a>
+        <a href="https://www.instagram.com/abdolgo" target="_blank">Follow on Instagram</a>
+      </div>
+      <div>
+        <h2 class="footer-heading">Legal & Info</h2>
+        <a href="./about.html">About QIV</a>
+        <a href="./contact.html">Contact Us</a>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html">Terms of Service</a>
+        <p style="font-size:12px; color:var(--muted); margin-top:8px;">Premium phone wallpapers for iPhone and Android worldwide</p>
+      </div>
+    </div>
+    <div class="credits">© 2026 QIV Premium Phone Wallpapers — All rights reserved.</div>
+  </footer>
+
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    function initializeTheme() {
+      const savedTheme = localStorage.getItem('theme') || 'light';
+      if (savedTheme === 'dark') {
+        document.body.classList.add('dark-theme');
+      } else {
+        document.body.classList.remove('dark-theme');
+      }
+    }
+    themeToggle.addEventListener('click', () => {
+      const isDarkMode = document.body.classList.toggle('dark-theme');
+      localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+    });
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializeTheme);
+    } else {
+      initializeTheme();
+    }
+  </script>
+</body>
+</html>

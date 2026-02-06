@@ -1,0 +1,625 @@
+{
+  "wallpapers": [
+    {
+      "id": "alien-funny-shoe",
+      "title": "Alien with Funny Shoe",
+      "description": "A hilarious alien character sporting an oversized colorful shoe. Perfect for adding a touch of humor and whimsy to your device.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-funny-shoe-wallpaper-for-phone.webp_tvlk0n",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-funny-shoe-wallpaper-for-phone.webp_tvlk0n",
+      "fileName": "alien-funny-shoe-wallpaper.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-green-skin-skateboard",
+      "title": "Green Alien Skateboard Master",
+      "description": "A stylish green-skinned alien riding a skateboard with dynamic lighting effects. Bold and futuristic design for modern phone users.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-green-skin-on-skateboard-9x16.webp_b5952g",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-green-skin-on-skateboard-9x16.webp_b5952g",
+      "fileName": "alien-green-skin-skateboard.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-snow-bike",
+      "title": "Alien in Snowy Adventure",
+      "description": "An alien enjoying a snowy landscape while riding a bike. Crisp, cool aesthetic perfect for winter lovers and adventure seekers.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-in-snow-on-bike-wallpaper-for-phone.webp_fppyd1",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-in-snow-on-bike-wallpaper-for-phone.webp_fppyd1",
+      "fileName": "alien-in-snow-on-bike.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-underground-skateboard",
+      "title": "Underground Skateboard Session",
+      "description": "Green-skinned alien performing tricks on a skateboard in an underground setting. Urban, edgy, and coolly designed.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-green-skin-ridikin-skateboard-underground-9x16.webp_g0fqik",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-green-skin-ridikin-skateboard-underground-9x16.webp_g0fqik",
+      "fileName": "alien-green-skin-skateboard.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-pro-skateboard",
+      "title": "Pro Skateboarding Alien",
+      "description": "A professional alien skateboarder in action. High energy and skill displayed in this dynamic futuristic design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-pro-riding-skateboard-wallpaper-for-phone.webp_irttd4",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-pro-riding-skateboard-wallpaper-for-phone.webp_irttd4",
+      "fileName": "alien-pro-riding-skateboard.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-stand-skateboard",
+      "title": "Standing Alien Skater",
+      "description": "A poised alien standing confidently on a skateboard. Clean design with strong presence perfect for bold phone displays.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-stand-on-skateboard-9x16.webp_agfmug",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-stand-on-skateboard-9x16.webp_agfmug",
+      "fileName": "alien-stand-on-skateboard.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-smile-skatebike",
+      "title": "Smiling Alien on Skatebike",
+      "description": "A cheerful alien with a big smile riding a skatebike. Happy and uplifting design to brighten your day.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-smile-face-on-skatebike-wallpaper-for-phone.webp_b8htcw",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-smile-face-on-skatebike-wallpaper-for-phone.webp_b8htcw",
+      "fileName": "alien-with-smile-skatebike.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-smile-bike",
+      "title": "Happy Alien Biker",
+      "description": "A smiling alien enjoying a ride on a bike. Vibrant and joyful atmosphere captured in this futuristic design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-smile-face-on-bike-wallpaper-for-phone.webp_spa91u",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-smile-face-on-bike-wallpaper-for-phone.webp_spa91u",
+      "fileName": "alien-with-smile-face-bike.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-jump-skateboard-street",
+      "title": "Alien Jumping on Street",
+      "description": "An alien performing an impressive jump with skateboard on a busy street. Action-packed and thrilling design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-jump-with-skateboard-on-the-street-9x16.webp_w9bhmh",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-jump-with-skateboard-on-the-street-9x16.webp_w9bhmh",
+      "fileName": "alien-jump-skateboard.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-pant-skateboard",
+      "title": "Alien in Pants on Skateboard",
+      "description": "A stylish alien wearing pants while skateboarding. Trendy and casual design with futuristic flair.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-pant-on-skateboard-wallpaper-for-phone.webp_rnbdne",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-pant-on-skateboard-wallpaper-for-phone.webp_rnbdne",
+      "fileName": "alien-with-pant-skateboard.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-calm-skateboard",
+      "title": "Calm Alien Skateboarder",
+      "description": "A serene and composed alien on a skateboard. Peaceful design perfect for meditation and relaxation lovers.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-calm-face-on-skateboard-wallpaper-for-phone.webp_yqmnu4",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-calm-face-on-skateboard-wallpaper-for-phone.webp_yqmnu4",
+      "fileName": "alien-with-calm-skateboard.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-monkey-skateboard",
+      "title": "Mischievous Monkey Alien",
+      "description": "A playful alien with monkey-like features on a skateboard. Fun and quirky design for personality lovers.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-monkey-face-on-skateboard-wallpaper-for-phone.webp_ecagot",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-monkey-face-on-skateboard-wallpaper-for-phone.webp_ecagot",
+      "fileName": "alien-with-monkey-face-skateboard.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-not-moving-skatebike",
+      "title": "Still Alien on Skatebike",
+      "description": "A stationary alien standing on a skatebike. Minimalist and contemplative design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-not-moving-stand-on-skatebike-9x16.webp_qxheph",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-not-moving-stand-on-skatebike-9x16.webp_qxheph",
+      "fileName": "alien-not-moving-skatebike.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-on-skateboard",
+      "title": "Classic Alien Skateboarding",
+      "description": "A timeless design featuring an alien on a skateboard. Iconic and universally appealing futuristic wallpaper.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-on-skateboard-wallpaper-for-phone.webp_mk6gej",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-on-skateboard-wallpaper-for-phone.webp_mk6gej",
+      "fileName": "alien-on-skateboard.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-bridge-bike",
+      "title": "Alien Riding Under Bridge",
+      "description": "An alien riding a bike under a bridge with atmospheric lighting. Urban and moody aesthetic.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-riding-bike-under-bridge-wallpaper-for-phone.webp_lx476v",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-riding-bike-under-bridge-wallpaper-for-phone.webp_lx476v",
+      "fileName": "alien-riding-bike-bridge.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-joker-skateboard",
+      "title": "Joker Alien Fast Rider",
+      "description": "A wild joker-faced alien riding fast on a skateboard. High energy and explosive design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-joker-riding-fast-on-skateboard-9x16.webp_jtnqvl",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-joker-riding-fast-on-skateboard-9x16.webp_jtnqvl",
+      "fileName": "alien-joker-skateboard.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-girl-skatebike",
+      "title": "Pretty Alien Girl on Skatebike",
+      "description": "An attractive alien girl gracefully riding a skatebike. Elegant and modern design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-pretty-girl-on-skatebike-wallpaper-for-phone.webp_rg6mye",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-pretty-girl-on-skatebike-wallpaper-for-phone.webp_rg6mye",
+      "fileName": "alien-pretty-girl-skatebike.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-boy-skatebike",
+      "title": "Cool Alien Boy on Skatebike",
+      "description": "A cool alien boy riding a skatebike with confidence. Youthful and spirited design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-boy-on-skatebike-wallpaper-for-phone.webp_dlh0y1",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-boy-on-skatebike-wallpaper-for-phone.webp_dlh0y1",
+      "fileName": "alien-boy-skatebike.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-bike",
+      "title": "Alien on Motorcycle",
+      "description": "An alien enjoying a ride on a sleek motorcycle. High-octane and adventurous design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-on-bike-wallpaper-for-phone.webp_lqtgsf",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-on-bike-wallpaper-for-phone.webp_lqtgsf",
+      "fileName": "alien-on-bike.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-girl-fly-skateboard",
+      "title": "Flying Alien Girl with Skateboard",
+      "description": "An alien girl flying through the air with a skateboard. Dreamy and imaginative design perfect for adventurers.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-girl-fly-with-skateboard-9x16.webp_aajlgo",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-girl-fly-with-skateboard-9x16.webp_aajlgo",
+      "fileName": "alien-girl-fly-skateboard.webp",
+      "gallery": 2
+    },
+    {
+      "id": "alien-handsome-bike",
+      "title": "Handsome Alien Sitting on Bike",
+      "description": "A handsome alien sitting confidently on a bike. Sophisticated and charming design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-handsome-siting-on-bike-wallpaper-for-phone.webp_wchezf",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-handsome-siting-on-bike-wallpaper-for-phone.webp_wchezf",
+      "fileName": "alien-handsome-bike.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-jump-skateboard-street-2",
+      "title": "Alien Jumping on Street 2",
+      "description": "Another thrilling shot of an alien jumping with a skateboard on the street. Dynamic action pose.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-jump-up-with-skateboard-on-the-street.webp_wdmkjn",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-jump-up-with-skateboard-on-the-street.webp_wdmkjn",
+      "fileName": "alien-jump-skateboard.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-green-speeding-bike",
+      "title": "Green Alien Speeding on Bike",
+      "description": "A fast-paced green alien speedily riding a bike. Perfect for speed enthusiasts and adrenaline junkies.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-green-skin-speeding-on-bike-wallpaper-for-phone.webp_sr1u1u",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-green-skin-speeding-on-bike-wallpaper-for-phone.webp_sr1u1u",
+      "fileName": "alien-green-skin-speeding-bike.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-rain-skateboard",
+      "title": "Alien Girl in the Rain",
+      "description": "A dramatic scene of an alien girl riding a skateboard in heavy rain. Moody and atmospheric design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-girl-in-the-rain-on-skateboard-9x16.webp_zcxgcd",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-girl-in-the-rain-on-skateboard-9x16.webp_zcxgcd",
+      "fileName": "alien-girl-rain-skateboard.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-fast-bridge",
+      "title": "Alien Racing Under Bridge",
+      "description": "An alien riding fast under a bridge with dynamic composition. High-speed action and intensity captured.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-riding-skateboard-fast-under-bridg-9x16.webp_wgimk1",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-riding-skateboard-fast-under-bridg-9x16.webp_wgimk1",
+      "fileName": "alien-riding-fast-bridge.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-pretty-girl-skateboard",
+      "title": "Pretty Girl Alien Skateboarding",
+      "description": "A beautiful alien girl skateboarding with style and grace. Elegant and trendy design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-pretty-girl-on-skateboard-wallpaper-for-phone.webp_oe1akn",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-pretty-girl-on-skateboard-wallpaper-for-phone.webp_oe1akn",
+      "fileName": "alien-pretty-girl-skateboard.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-street-skateboard",
+      "title": "Alien Skateboarding on Street",
+      "description": "An alien proudly skateboarding on an urban street. Clean, stylish, and contemporary design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-riding-skateboard-on-street-9x16.webp_ntsqin",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-riding-skateboard-on-street-9x16.webp_ntsqin",
+      "fileName": "alien-riding-street.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-sunglass-skateboard",
+      "title": "Cool Alien with Sunglasses",
+      "description": "A trendy alien wearing sunglasses and riding a skateboard. Cool and confident aesthetic.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-wearing-sunglass-on-skateboard-wallpaper-for-phone.webp_kwskja",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-wearing-sunglass-on-skateboard-wallpaper-for-phone.webp_kwskja",
+      "fileName": "alien-sunglass-skateboard.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-old-man-bike",
+      "title": "Old Alien Man Riding Bike",
+      "description": "A distinguished older alien riding a bike on the street. Wise and experienced character design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-old-man-riding-bike-on-the-street-9x16.webp_ehozht",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-old-man-riding-bike-on-the-street-9x16.webp_ehozht",
+      "fileName": "alien-old-man-bike.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-glowing-skateboard",
+      "title": "Glowing Alien Skateboarder",
+      "description": "A radiant alien with a glowing appearance on a skateboard. Luminous and ethereal design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-glowing-on-skateboard-wallpaper-for-phone.webp_jn7qg9",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-glowing-on-skateboard-wallpaper-for-phone.webp_jn7qg9",
+      "fileName": "alien-glowing-skateboard.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-floating-skateboard",
+      "title": "Floating Alien Skateboard",
+      "description": "An alien gracefully floating on a skateboard in mid-air. Surreal and imaginative design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-on-skateboard-floating-9x16.webp_x8n5k7",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-on-skateboard-floating-9x16.webp_x8n5k7",
+      "fileName": "alien-skateboard-floating.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-blue-skin-bike",
+      "title": "Blue Alien on Bike",
+      "description": "A striking blue-skinned alien riding a bike with vibrant color. Bold and visually stunning design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-blue-skin-on-bike-9x16.webp_aosbxq",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-blue-skin-on-bike-9x16.webp_aosbxq",
+      "fileName": "alien-blue-skin-bike.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-green-cap-bike",
+      "title": "Green Alien with Cap on Bike",
+      "description": "A green alien wearing a cap while riding a bike. Casual and friendly design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-green-skin-with-cap-on-bike-wallpaper-for-phone.webp_mwdv8n",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-green-skin-with-cap-on-bike-wallpaper-for-phone.webp_mwdv8n",
+      "fileName": "alien-green-cap-bike.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-sunglass-riding",
+      "title": "Alien with Sunglasses Riding",
+      "description": "An alien wearing sunglasses while riding a skateboard at speed. Stylish and energetic design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-sunglass-riding-skateboard-9x16.webp_iwtnye",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-sunglass-riding-skateboard-9x16.webp_iwtnye",
+      "fileName": "alien-sunglass-riding.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-small-boy-skatebike",
+      "title": "Small Alien Boy on Skatebike",
+      "description": "An adorable young alien boy riding a skatebike. Cute and endearing character design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-small-boy-on-skatebike-wallpaper-for-phone.webp_bsvrht",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-small-boy-on-skatebike-wallpaper-for-phone.webp_bsvrht",
+      "fileName": "alien-small-boy-skatebike.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-red-skin-skateboard",
+      "title": "Red Alien Skateboarder",
+      "description": "A vibrant red-skinned alien performing on a skateboard. Energetic and eye-catching design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-red-skin-on-skateboard-wallpaper-for-phone.webp_dououx",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-red-skin-on-skateboard-wallpaper-for-phone.webp_dououx",
+      "fileName": "alien-red-skin-skateboard.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-green-skatebike",
+      "title": "Green Alien on Skatebike",
+      "description": "A green-skinned alien confidently riding a skatebike. Smooth and stylish design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-green-skin-on-skatebike-9x16.webp_qx4yvr",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-green-skin-on-skatebike-9x16.webp_qx4yvr",
+      "fileName": "alien-green-skin-skatebike.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-shock-eye-bike",
+      "title": "Shocked Alien on Bike",
+      "description": "A surprised alien with expressive eyes riding a bike. Amusing and personality-filled design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-shock-eye-on-bike-wallpaper-for-phone.webp_vxzln3",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-shock-eye-on-bike-wallpaper-for-phone.webp_vxzln3",
+      "fileName": "alien-shock-eye-bike.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-stand-skateboard-phone",
+      "title": "Standing Alien Skateboard",
+      "description": "A confident alien standing on a skateboard. Strong presence and bold aesthetic.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-stand-on-skateboard-wallpaper-for-phone.webp_i1tp00",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-stand-on-skateboard-wallpaper-for-phone.webp_i1tp00",
+      "fileName": "alien-stand-skateboard-phone.webp",
+      "gallery": 3
+    },
+    {
+      "id": "alien-gamer-zone",
+      "title": "Alien Gamer in the Zone",
+      "description": "An intense alien focused on gaming with complete concentration. Perfect for gamers and esports enthusiasts.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-playing-video-game-alone-wallpaper-for-phone.webp_t4hoaz",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-playing-video-game-alone-wallpaper-for-phone.webp_t4hoaz",
+      "fileName": "alien-gamer-zone.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-basketball-night",
+      "title": "Alien Courtside Player",
+      "description": "An alien athlete playing basketball at night. High energy and competitive spirit captured in dynamic lighting.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-playing-basketball-at-night-wallpaper-for-phone.webp_skt07s",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-playing-basketball-at-night-wallpaper-for-phone.webp_skt07s",
+      "fileName": "alien-basketball-night.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-sun-relaxation",
+      "title": "Alien Basking in Sunlight",
+      "description": "A peaceful alien enjoying and feeling the warmth of the sun. Serene and relaxing aesthetic.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-feeling-him-self-in-the-sun-wallpaper-for-phone.webp_nmp6xv",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-feeling-him-self-in-the-sun-wallpaper-for-phone.webp_nmp6xv",
+      "fileName": "alien-sun-relaxation.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-hoodie-stance",
+      "title": "Alien Hooded Stance",
+      "description": "A cool alien standing alone in a hoodie. Urban, mysterious, and fashionable design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-standing-alone-wearing-hoodie-wallpaper-for-phone.webp_kqarz1",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-standing-alone-wearing-hoodie-wallpaper-for-phone.webp_kqarz1",
+      "fileName": "alien-hoodie-stance.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-tennis-champion",
+      "title": "Alien Tennis Champion",
+      "description": "An alien athlete with a distinctive mark on face competing at a tennis field. Competitive and determined.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-mark-on-his-face-at-tennis-field-wallpaper-for-phone.webp_hb2vst",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-with-mark-on-his-face-at-tennis-field-wallpaper-for-phone.webp_hb2vst",
+      "fileName": "alien-tennis-champion.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-race-ready",
+      "title": "Alien Ready to Race",
+      "description": "An alien warming up and preparing for an upcoming race. Dynamic and action-ready composition.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-warming-out-for-upcoming-race-wallpaper-for-phone.webp_mruntp",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-warming-out-for-upcoming-race-wallpaper-for-phone.webp_mruntp",
+      "fileName": "alien-race-ready.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-glowing-aura",
+      "title": "Alien Glowing Aura",
+      "description": "An alien standing with a mystical glowing aura surrounding them. Magical and ethereal aesthetic.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-standing-with-aura-wallpaper-for-phone.webp_gtmj21",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-standing-with-aura-wallpaper-for-phone.webp_gtmj21",
+      "fileName": "alien-glowing-aura.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-soccer-star",
+      "title": "Alien Soccer Star",
+      "description": "A confident alien baddie at a football field feeling like a legendary player. High confidence and sporting excellence.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-baddie-at-football-field-feeling-like-ronaldo-9x16.webp_ihpc5e",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-baddie-at-football-field-feeling-like-ronaldo-9x16.webp_ihpc5e",
+      "fileName": "alien-soccer-star.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-tennis-master",
+      "title": "Alien Tennis Master",
+      "description": "An expert alien playing tennis with professional skill and poise. Athletic and competitive design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-playing-tennis-wallpaper-for-phone.webp_tlsmvd",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-playing-tennis-wallpaper-for-phone.webp_tlsmvd",
+      "fileName": "alien-tennis-master.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-night-court-dancer",
+      "title": "Alien Night Court Dancer",
+      "description": "An alien dancing with pure joy in a basketball court at night. Fun, energetic, and celebratory vibes.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-dancing-in-basket-ball-court-at-night-9x16.webp_w2zj24",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-dancing-in-basket-ball-court-at-night-9x16.webp_w2zj24",
+      "fileName": "alien-night-court-dancer.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-boxing-champion",
+      "title": "Alien Boxing Champion",
+      "description": "A ready-to-fight alien positioned for a boxing match. Bold, powerful, and competitive energy.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-ready-for-boxing-fight-wallpaper-for-phone.webp_e0djph",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-ready-for-boxing-fight-wallpaper-for-phone.webp_e0djph",
+      "fileName": "alien-boxing-champion.webp",
+      "gallery": 1
+    },
+    {
+      "id": "cute-alien-girl",
+      "title": "Cute Alien Girl",
+      "description": "An adorable and cute little alien girl. Sweet, innocent, and charming character design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-little-cute-girl-wallpaper-for-phone.webp_bayzhz",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-little-cute-girl-wallpaper-for-phone.webp_bayzhz",
+      "fileName": "cute-alien-girl.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-night-baller",
+      "title": "Alien Night Baller",
+      "description": "An alien holding a basketball at night under atmospheric lighting. Cool and athletic aesthetic.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-holding-basketball-at-night-9x16.webp_vsaqdy",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-holding-basketball-at-night-9x16.webp_vsaqdy",
+      "fileName": "alien-night-baller.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-fitness-champion",
+      "title": "Alien Fitness Champion",
+      "description": "An alien working out alone with dedication and focus. Motivational and fitness-oriented design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-working-out-alone-wallpaper-for-phone.webp_cdtvbg",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-working-out-alone-wallpaper-for-phone.webp_cdtvbg",
+      "fileName": "alien-fitness-champion.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-grandma-vibes",
+      "title": "Alien Grandma Vibes",
+      "description": "A charming alien grandma feeling confident and fabulous. Humorous and wholesome design with personality.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-grandma-feeling-herself-wallpaper-for-phone.webp_m5dagu",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-grandma-feeling-herself-wallpaper-for-phone.webp_m5dagu",
+      "fileName": "alien-grandma-vibes.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-skater-glow",
+      "title": "Alien Skater with Glow",
+      "description": "An alien skateboarder with white glowing eyes creating a mystical effect. Cool and futuristic.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-riding-skateboard-with-white-glowing-eye-9x16.webp_vltim3",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-riding-skateboard-with-white-glowing-eye-9x16.webp_vltim3",
+      "fileName": "alien-skater-glow.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-confident-baller",
+      "title": "Alien Confident Baller",
+      "description": "A confident bald alien feeling himself at a basketball court. Bold, strong, and assured energy.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-bald-man-feeling-himself-at-basketball-court-9x16.webp_ryq3vl",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-bald-man-feeling-himself-at-basketball-court-9x16.webp_ryq3vl",
+      "fileName": "alien-confident-baller.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-futuristic-dj",
+      "title": "Alien Futuristic DJ",
+      "description": "An alien DJ performing with futuristic night club vibes and high-tech lighting. Techno and electronic aesthetic.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-Dj-night-futuristic-view-wallpaper-for-phone.webp_mz9g7m",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-Dj-night-futuristic-view-wallpaper-for-phone.webp_mz9g7m",
+      "fileName": "alien-futuristic-dj.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-neon-night-style",
+      "title": "Alien Neon Night Style",
+      "description": "An alien wearing glowing neon clothes at night creating a futuristic vibe. Cyberpunk and trendy aesthetic.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-with-glowing-cloth-at-night-wallpaper-for-phone.webp_m07xpc",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-with-glowing-cloth-at-night-wallpaper-for-phone.webp_m07xpc",
+      "fileName": "alien-neon-night-style.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-nyc-photographer",
+      "title": "Alien NYC Photographer",
+      "description": "An alien cameraman capturing moments in New York City Times Square. Urban, artistic, and cosmopolitan design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-camera-man-in-newyork-timesqure-wallpaper-for-phone.webp_mpyc0h",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-camera-man-in-newyork-timesqure-wallpaper-for-phone.webp_mpyc0h",
+      "fileName": "alien-nyc-photographer.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-coastal-skater",
+      "title": "Alien Coastal Skater",
+      "description": "An alien standing with a skateboard by the sea enjoying coastal vibes. Relaxing and beachy aesthetic.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-standing-with-sea-skateboard-9x16.webp_gigert",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-standing-with-sea-skateboard-9x16.webp_gigert",
+      "fileName": "alien-coastal-skater.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-pro-athlete",
+      "title": "Alien Pro Athlete",
+      "description": "An alien feeling like a professional basketball player with championship energy. Sports excellence and prowess.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-feeling-like-basketball-pro-player-wallpaper-for-phone.webp_jevxac",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-feeling-like-basketball-pro-player-wallpaper-for-phone.webp_jevxac",
+      "fileName": "alien-pro-athlete.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-grandma-hoops",
+      "title": "Alien Grandma Hoops",
+      "description": "A spirited alien grandma at a basketball court ready to play. Playful, family-friendly, and fun design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-grandma-at-basketball-court-wallpaper-for-phone.webp_e0qhja",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-grandma-at-basketball-court-wallpaper-for-phone.webp_e0qhja",
+      "fileName": "alien-grandma-hoops.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-mountain-summit",
+      "title": "Alien Mountain Summit",
+      "description": "An alien conquering the mountain peak in the snow and ice. Adventurous and achievement-focused design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-in-the-snow-at-the-top-of-mountain-9x16.webp_kh3ug1",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-in-the-snow-at-the-top-of-mountain-9x16.webp_kh3ug1",
+      "fileName": "alien-mountain-summit.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-muscle-power",
+      "title": "Alien Muscle Power",
+      "description": "A massively muscular alien flexing their strength and power. Strong, impressive, and intimidating aesthetic.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-big-muscle-man-wallpaper-for-phone.webp_huwrvx",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-big-muscle-man-wallpaper-for-phone.webp_huwrvx",
+      "fileName": "alien-muscle-power.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-racing-hero",
+      "title": "Alien Racing Hero",
+      "description": "An alien boy who thinks he's a superhero racing at high speed. Youthful, playful, and heroic energy.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-boy-thinking-is-spiderman-on-racing-9x16.webp_g30uri",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-boy-thinking-is-spiderman-on-racing-9x16.webp_g30uri",
+      "fileName": "alien-racing-hero.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-basketball-dancer",
+      "title": "Alien Basketball Dancer",
+      "description": "An alien dancing with a basketball combining sports and entertainment. Fun, rhythmic, and playful design.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-dancing-with-basketball-wallpaper-for-phone.webp_ffeg0o",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-dancing-with-basketball-wallpaper-for-phone.webp_ffeg0o",
+      "fileName": "alien-basketball-dancer.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-sun-seeker",
+      "title": "Alien Sun Seeker",
+      "description": "A cool alien standing in the sun wearing a hoodie. Relaxed, confident, and laid-back vibe.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-standing-in-the-sun-wearing-hoodie-wallpaper-for-phone.webp_nakiz4",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-standing-in-the-sun-wearing-hoodie-wallpaper-for-phone.webp_nakiz4",
+      "fileName": "alien-sun-seeker.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-rainy-match",
+      "title": "Alien Rainy Match",
+      "description": "An alien playing tennis at night in the rain at a tennis field. Moody, atmospheric, and dramatic.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-in-the-night-rain-at-tennis-field-wallpaper-for-phone.webp_r2djjl",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-in-the-night-rain-at-tennis-field-wallpaper-for-phone.webp_r2djjl",
+      "fileName": "alien-rainy-match.webp",
+      "gallery": 1
+    },
+    {
+      "id": "alien-skater-girl",
+      "title": "Alien Skater Girl",
+      "description": "A small alien girl sitting down with a skateboard beside her. Sweet, youthful, and casual aesthetic.",
+      "thumbnail": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-small-girl-siting-down-with-skateboard-next-to-him-9x16.webp_bclmnd",
+      "fullQuality": "https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/q_auto/alien-small-girl-siting-down-with-skateboard-next-to-him-9x16.webp_bclmnd",
+      "fileName": "alien-skater-girl.webp",
+      "gallery": 1
+    }
+  ]
+}

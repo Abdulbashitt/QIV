@@ -1,0 +1,417 @@
+<!-- 
+COMPLETE DOWNLOAD SOLUTION
+Works on iOS, Android, Windows, Mac - all browsers
+Cross-origin Cloudinary URLs supported
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Button Solution</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .card-image {
+            width: 100%;
+            aspect-ratio: 9/16;
+            object-fit: cover;
+            background: #e0e0e0;
+        }
+
+        .card-buttons {
+            display: flex;
+            gap: 10px;
+            padding: 12px;
+            background: #fafafa;
+        }
+
+        .download-btn,
+        .share-btn {
+            flex: 1;
+            padding: 10px 16px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .download-btn {
+            background: #ff6b9d;
+            color: white;
+        }
+
+        .download-btn:hover:not(:disabled) {
+            background: #ff4d7f;
+            transform: scale(1.02);
+        }
+
+        .download-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .download-btn svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .share-btn {
+            background: white;
+            color: #333;
+            border: 2px solid #ddd;
+        }
+
+        .share-btn:hover {
+            border-color: #ff6b9d;
+            color: #ff6b9d;
+        }
+
+        .share-btn svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .status-message {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-size: 14px;
+            z-index: 1000;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        .status-message.success {
+            background: #4caf50;
+            color: white;
+        }
+
+        .status-message.error {
+            background: #f44336;
+            color: white;
+        }
+
+        .status-message.loading {
+            background: #2196f3;
+            color: white;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="gallery" id="gallery">
+    <!-- CARD TEMPLATE - Repeat for each image -->
+    <div class="card">
+        <img src="https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-funny-shoe-wallpaper-for-phone.webp_tvlk0n" 
+             alt="Wallpaper" class="card-image">
+        <div class="card-buttons">
+            <button class="download-btn" data-image-url="https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-funny-shoe-wallpaper-for-phone.webp_tvlk0n" 
+                    data-image-name="alien-funny-shoe-wallpaper.webp">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                FREE
+            </button>
+            <button class="share-btn" data-share-url="https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-funny-shoe-wallpaper-for-phone.webp_tvlk0n">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="18" cy="5" r="3"></circle>
+                    <circle cx="6" cy="12" r="3"></circle>
+                    <circle cx="18" cy="19" r="3"></circle>
+                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- REPEAT ABOVE CARD FOR EACH IMAGE -->
+    <div class="card">
+        <img src="https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-boy-on-skatebike-wallpaper-for-phone.webp_dlh0y1" 
+             alt="Wallpaper" class="card-image">
+        <div class="card-buttons">
+            <button class="download-btn" data-image-url="https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-boy-on-skatebike-wallpaper-for-phone.webp_dlh0y1" 
+                    data-image-name="alien-boy-on-skatebike-wallpaper.webp">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                FREE
+            </button>
+            <button class="share-btn" data-share-url="https://res.cloudinary.com/dmdlkppcg/image/upload/ar_9:16,c_auto/alien-boy-on-skatebike-wallpaper-for-phone.webp_dlh0y1">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="18" cy="5" r="3"></circle>
+                    <circle cx="6" cy="12" r="3"></circle>
+                    <circle cx="18" cy="19" r="3"></circle>
+                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+</div>
+
+<script>
+// ==========================================
+// UNIVERSAL DOWNLOAD HANDLER
+// Works on iOS, Android, Windows, Mac
+// Handles Cloudinary cross-origin URLs
+// ==========================================
+
+class DownloadManager {
+    constructor() {
+        this.isProcessing = false;
+        this.init();
+    }
+
+    init() {
+        // Attach download handlers to all download buttons
+        document.querySelectorAll('.download-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => this.handleDownload(e, btn));
+        });
+
+        // Attach share handlers to all share buttons
+        document.querySelectorAll('.share-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => this.handleShare(e, btn));
+        });
+    }
+
+    async handleDownload(e, button) {
+        e.preventDefault();
+
+        if (this.isProcessing) return;
+        this.isProcessing = true;
+
+        const imageUrl = button.dataset.imageUrl;
+        const imageName = button.dataset.imageName || this.extractFilename(imageUrl);
+
+        // Show loading state
+        button.disabled = true;
+        const originalText = button.innerHTML;
+        button.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="animation: spin 1s linear infinite;"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg> Downloading...';
+
+        try {
+            // APPROACH 1: Fetch as blob (most reliable)
+            const blob = await this.fetchImageAsBlob(imageUrl);
+            
+            if (blob) {
+                // Create download link from blob
+                this.triggerDownload(blob, imageName);
+                this.showStatus('success', 'Downloaded successfully!');
+                this.isProcessing = false;
+                this.resetButton(button, originalText);
+                return;
+            }
+        } catch (err) {
+            console.warn('Blob download failed, trying alternative...', err);
+        }
+
+        try {
+            // APPROACH 2: Direct browser download (fallback)
+            this.triggerDirectDownload(imageUrl, imageName);
+            this.showStatus('success', 'Opening download...');
+            this.isProcessing = false;
+            this.resetButton(button, originalText);
+            return;
+        } catch (err) {
+            console.error('Download failed:', err);
+            this.showStatus('error', 'Download failed. Please try again.');
+        }
+
+        this.isProcessing = false;
+        this.resetButton(button, originalText);
+    }
+
+    async fetchImageAsBlob(url) {
+        try {
+            // Add timestamp to bypass cache
+            const cacheBuster = `?cb=${Date.now()}`;
+            const response = await fetch(url + cacheBuster, {
+                mode: 'cors',
+                credentials: 'omit',
+                headers: {
+                    'Accept': 'image/*'
+                }
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            return await response.blob();
+        } catch (err) {
+            console.error('Fetch blob error:', err);
+            return null;
+        }
+    }
+
+    triggerDownload(blob, filename) {
+        const blobUrl = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = blobUrl;
+        link.download = filename;
+        
+        // Append to body (required for some browsers)
+        document.body.appendChild(link);
+        
+        // Trigger click
+        link.click();
+        
+        // Cleanup
+        setTimeout(() => {
+            document.body.removeChild(link);
+            URL.revokeObjectURL(blobUrl);
+        }, 100);
+    }
+
+    triggerDirectDownload(url, filename) {
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = filename;
+        link.setAttribute('target', '_blank');
+        
+        document.body.appendChild(link);
+        link.click();
+        
+        setTimeout(() => {
+            document.body.removeChild(link);
+        }, 100);
+    }
+
+    extractFilename(url) {
+        try {
+            const urlObj = new URL(url);
+            const pathname = urlObj.pathname;
+            const filename = pathname.substring(pathname.lastIndexOf('/') + 1);
+            return filename || 'wallpaper.webp';
+        } catch {
+            return 'wallpaper.webp';
+        }
+    }
+
+    resetButton(button, originalHTML) {
+        button.disabled = false;
+        button.innerHTML = originalHTML;
+    }
+
+    async handleShare(e, button) {
+        e.preventDefault();
+        
+        const shareUrl = button.dataset.shareUrl;
+        const title = 'Check out this wallpaper!';
+        const text = 'Amazing wallpaper for your phone';
+
+        // Use native Web Share API if available
+        if (navigator.share) {
+            try {
+                await navigator.share({
+                    title: title,
+                    text: text,
+                    url: shareUrl
+                });
+                this.showStatus('success', 'Shared successfully!');
+            } catch (err) {
+                if (err.name !== 'AbortError') {
+                    console.error('Share failed:', err);
+                }
+            }
+        } else {
+            // Fallback: Copy link to clipboard
+            try {
+                await navigator.clipboard.writeText(shareUrl);
+                this.showStatus('success', 'Link copied to clipboard!');
+            } catch {
+                this.showStatus('error', 'Could not share. Please try manually.');
+            }
+        }
+    }
+
+    showStatus(type, message) {
+        // Remove existing message
+        const existing = document.querySelector('.status-message');
+        if (existing) existing.remove();
+
+        // Create message
+        const msg = document.createElement('div');
+        msg.className = `status-message ${type}`;
+        msg.textContent = message;
+        document.body.appendChild(msg);
+
+        // Auto-remove after 3 seconds
+        setTimeout(() => {
+            msg.style.animation = 'slideIn 0.3s ease-out reverse';
+            setTimeout(() => msg.remove(), 300);
+        }, 3000);
+    }
+}
+
+// Initialize when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        new DownloadManager();
+    });
+} else {
+    new DownloadManager();
+}
+
+// Add spin animation for loading state
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+`;
+document.head.appendChild(style);
+</script>
+
+</body>
+</html>

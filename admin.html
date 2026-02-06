@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>QIV Admin</title>
+  <link rel="stylesheet" href="./styles.css">
+  <style>body{padding:24px;background:var(--bg);color:var(--text);font-family:inherit} .box{max-width:900px;margin:0 auto} .login{display:flex;gap:8px} .sub{background:rgba(0,0,0,0.04);padding:12px;border-radius:8px;margin-top:12px}</style>
+</head>
+<body>
+  <div class="box">
+    <h1>QIV — Admin</h1>
+    <p>Admin panel: view collected fake review submissions. This panel is client-side and protected by a simple passphrase.</p>
+    <div class="login">
+      <input id="pass" type="password" placeholder="Admin passphrase">
+      <button id="login" class="btn btn-primary">Unlock</button>
+    </div>
+
+    <div id="locked" class="sub">Locked. Enter passphrase to view submissions.</div>
+    <div id="list" style="display:none"></div>
+    <button id="clear" class="btn" style="margin-top:12px; display:none">Clear submissions</button>
+  </div>
+
+  <script>
+    const PASS = 'ki-admin-2026'; // change if needed
+    const el = (s)=>document.querySelector(s);
+    el('#login').addEventListener('click', ()=>{
+      const p = el('#pass').value;
+      if(p===PASS){
+        el('#locked').style.display='none'; el('#list').style.display='block'; el('#clear').style.display='inline-block'; show();
+      }else{ alert('Incorrect passphrase'); }
+    });
+    function show(){
+      const data = JSON.parse(localStorage.getItem('ki_admin_submissions')||'[]');
+      const out = data.map(d=>`<div class=sub><strong>${d.name}</strong> <small>${d.ts}</small><p>${d.review}</p></div>`).join('') || '<div class=sub>No submissions</div>';
+      el('#list').innerHTML = out;
+    }
+    el('#clear').addEventListener('click', ()=>{ if(confirm('Clear submissions?')){ localStorage.removeItem('ki_admin_submissions'); show(); }});
+  </script>
+</body>
+</html>
